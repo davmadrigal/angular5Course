@@ -11,6 +11,8 @@ export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A Test Recipe', 'This is the description',
     'http://assets.eatingwell.com/sites/default/files/imagecache/standard/recipes/MP7591.jpg'),
+    new Recipe('A Test Recipe', 'This is the description',
+    'http://assets.eatingwell.com/sites/default/files/imagecache/standard/recipes/MP7591.jpg'),
   ];
   constructor() { }
 
